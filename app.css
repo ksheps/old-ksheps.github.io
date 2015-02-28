@@ -1,0 +1,16 @@
+h1 {
+	text-align: center;
+}
+nav {
+	text-align: center;
+}
+
+.orbit-container {
+	margin-top: 50px;
+	padding: 10px;
+} 
+
+.img {
+	text-align: center;
+	margin-bottom: 10px;
+}
