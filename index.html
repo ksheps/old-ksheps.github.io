@@ -26,28 +26,32 @@
 	    </ul>
 	  </section>
 	</nav>
-	<div class="large-8 columns">
 		<div class="orbit-container">
-			  <ul data-orbit class="example-orbit orbit-slides-container">
-			    <li>
-			      <img src="../assets/img/examples/satelite-orbit.jpg" alt="slide 1" />
-			      <div class="orbit-caption">
-			        Caption One.
-			      </div>
-			    </li>
-			    <li class="active">
-			      <img src="../assets/img/examples/andromeda-orbit.jpg" alt="slide 1" />
-			      <div class="orbit-caption">
-			        Caption Two.
-			      </div>
-			    </li>
-			    <li>
-			      <img src="../assets/img/examples/launch-orbit.jpg" alt="slide 1" />
-			      <div class="orbit-caption">
-			        Caption Three.
-			      </div>
-			    </li>
-			  </ul>
+			<ul class="example-orbit-content" data-orbit data-equalizer>
+			  <li class="headline-1" data-orbit-slide="headline-1" data-equalizer-watch>
+			    <div class="wake">
+			      <h2>Wake of the Storm</h2>
+				      <p>The Philippines was devastated by a super typhoon in November 2013 that affected 16 million people. UCLA student donations played a part in the relief missions of several aid agencies in the wake of the storm.</p>
+				      <p>Reporter Katie Shepherd, photojournalist Neil Bedi and data journalist Byron Lutz spent 19 days in the Philippines talking to survivors of the typhoon, displaced residents and aid organizations about the massive rehabilitation efforts underway in the Eastern Visayas.</p>
+				      <a href='/yolanda.dailybruin.com'><p>Read more</p></a>
+			    </div>
+			  </li>
+			  <li class='headline-2' data-orbit-slide="headline-2" data-equalizer-watch>
+			    <div class='sink'>
+			      <h2>Sinking Beneath the Surface</h2>
+			      <p>With funding pools drying up and the demand for treatment services overwhelming already crowded resources, mental health is more than just a passing concern for UCLA students.</p>
+			    </div>
+			    <a href='http://graphics.dailybruin.com/prime/fall-2014/mental-health/'>Read more</a> 
+			  </li>
+			  <li class='headline-3' data-orbit-slide="headline-3" data-equalizer-watch>
+			    <div class='ranks'>
+			      <h2>Back in the Ranks</h2>
+			      <h4>A soldier finds a new home, new loyalties in LA</h4>
+			      <p>Oliver Kay, a recent UCLA graduate, joined the U.S. Army reserves after serving for more than four years as an officer in the British Army.</p>
+			      <a href='http://graphics.dailybruin.com/prime/winter-2014/back-ranks-soldier-finds-new-home-new-loyalties-la/'>Read more</a> 
+			    </div>
+			  </li>
+			</ul>
 			<ol class="orbit-bullets">
 			  <li data-orbit-slide-number="1"></li>
 			  <li data-orbit-slide-number="2" class="active"></li>
@@ -56,4 +60,17 @@
 		</div>
 	</div>
 </div>
+	<script>
+		$(document).foundation({
+		  	orbit: {
+			    animation: 'fade',
+			    timer_speed: 5000,
+			    pause_on_hover: true,
+			    animation_speed: 200,
+			    navigation_arrows: false,
+			    bullets: false
+			  }
+		});
+	</script>
+
   </body>

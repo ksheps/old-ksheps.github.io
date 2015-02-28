@@ -1,16 +1,52 @@
 h1 {
 	text-align: center;
+
 }
 nav {
 	text-align: center;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .orbit-container {
 	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 10px;
+	max-width: 940px;
 } 
 
-.img {
-	text-align: center;
-	margin-bottom: 10px;
+.headline-1 {
+	background-image: url(/background1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.headline-2 {
+	background-image: url(/background2.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.headline-3 {
+	background-image: url(/background3.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.wake {
+	height: 100%;
+	margin-top: -3px;
+	background-color: rgba(255,255,255,.6);
+}
+.sink {
+	height: 100%;
+	margin-top: -3px;
+	background-color: rgba(255,255,255,.6);
+}
+.ranks {
+	height: 100%;
+	margin-top: -3px;
+	background-color: rgba(255,255,255,.6);
 }
