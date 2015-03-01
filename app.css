@@ -5,6 +5,9 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+.nav a {
+	color: black;
+}
 
 h3 {
 	color: grey;
