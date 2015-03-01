@@ -39,6 +39,10 @@ i {
 	height: 75px;
 }
 
+.guide a {
+	color: black;
+}
+
 .single-item {
 	max-width: 940px;
 	margin-left: auto;
