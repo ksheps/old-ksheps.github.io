@@ -18,7 +18,8 @@ h3 {
 }
 
 i {
-	padding: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .top {
@@ -32,4 +33,41 @@ i {
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
+	height: 75px;
+}
+
+.single-item {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+.panel {
+	padding: 0px;
+}
+
+.prof-pic {
+	max-width: 500px;
+	padding: 50px;
+	margin-left: 200px;
+}
+
+object {
+	max-width: 940px;
+	height: 1110px;
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: center;
+}
+
+.contact-info {
+	margin-top: 60px;
+}
+.contact-info i {
+	padding: 10px;
+}
+
+.contact-info a {
+	color: black;
 }
